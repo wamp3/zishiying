@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<!--强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览；-->
+<meta content="yes" name="apple-mobile-web-app-capable">
+<!--iphone设备中的safari私有meta标签，它表示：允许全屏模式浏览；-->
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<!--iphone的私有标签，它指定的iphone中safari顶端的状态条的样式；-->
+<meta content="telephone=no" name="format-detection">
+<!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <title></title>
+		<title>app3</title>
+	</head>
+	<style>
+		*{padding: 0px; margin: 0px; border: none;}
+		.box img{ display: block; width: 5rem;}
+	</style>
+	<script>
+		document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/5+"px";
+	</script>
+	<body>
+		<div class="box">
+			<img src="img/img.jpg">
+		</div>
+	</body>
+</html>
